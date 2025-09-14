@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Editor de Video & Creador de Contenido</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <style>
+        .logo {
+            width: 48px;
+            height: auto;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    </style>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <img src="assets/logo.png" alt="TonCreator" class="logo">
+                <span>TonyCreator</span>
+            </div>
+            <div class="nav__info">
+                <p class="nav__subtitle">Editor de Video & Creador de Contenido</p>
+                <a href="https://wa.me/1234567890" class="btn btn--primary">
+                    <i class="fab fa-whatsapp"></i>
+                    Contactar
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">Transformo ideas en historias visuales</h1>
+            <p class="hero__description">Especialista en contenido audiovisual para redes sociales y plataformas
+                digitales</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="section__title">Portafolio</h2>
+
+            <!-- Vertical Videos -->
+            <div class="portfolio__category">
+                <h3 class="portfolio__subtitle">Contenido Vertical</h3>
+                <div class="portfolio__grid portfolio__grid--vertical">
+                    <div class="portfolio__item" data-youtube="dQw4w9WgXcQ">
+                        <div class="portfolio__thumbnail">
+                            <img class="portfolio__fallback-img"
+                                src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Reel de Viajes">
+                            <div class="portfolio__overlay">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <p class="portfolio__title">Reel de Viajes</p>
+                    </div>
+                    <div class="portfolio__item" data-youtube="9bZkp7q19f0">
+                        <div class="portfolio__thumbnail">
+                            <img class="portfolio__fallback-img"
+                                src="https://img.youtube.com/vi/9bZkp7q19f0/maxresdefault.jpg" alt="TikTok Viral">
+                            <div class="portfolio__overlay">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <p class="portfolio__title">TikTok Viral</p>
+                    </div>
+                    <div class="portfolio__item" data-youtube="JGwWNGJdvx8">
+                        <div class="portfolio__thumbnail">
+                            <img class="portfolio__fallback-img"
+                                src="https://img.youtube.com/vi/JGwWNGJdvx8/maxresdefault.jpg" alt="YouTube Shorts">
+                            <div class="portfolio__overlay">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <p class="portfolio__title">YouTube Shorts</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Horizontal Videos -->
+            <div class="portfolio__category">
+                <h3 class="portfolio__subtitle">Contenido Horizontal</h3>
+                <div class="portfolio__grid portfolio__grid--horizontal">
+                    <div class="portfolio__item" data-youtube="kJQP7kiw5Fk">
+                        <div class="portfolio__thumbnail">
+                            <img class="portfolio__fallback-img"
+                                src="https://img.youtube.com/vi/kJQP7kiw5Fk/maxresdefault.jpg" alt="Documental Corto">
+                            <div class="portfolio__overlay">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <p class="portfolio__title">Documental Corto</p>
+                    </div>
+                    <div class="portfolio__item" data-youtube="RgKAFK5djSk">
+                        <div class="portfolio__thumbnail">
+                            <img class="portfolio__fallback-img"
+                                src="https://img.youtube.com/vi/RgKAFK5djSk/maxresdefault.jpg" alt="Spot Publicitario">
+                            <div class="portfolio__overlay">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <p class="portfolio__title">Spot Publicitario</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about__content">
+                <div class="about__image">
+                    <img src="https://via.placeholder.com/300x300/FEF1DD/351B48?text=Foto+Perfil" alt="Foto de perfil">
+                </div>
+                <div class="about__text">
+                    <h2 class="section__title">Sobre mí</h2>
+                    <p class="about__description">
+                        Soy un apasionado del cine y la narrativa visual con más de 5 años de experiencia creando
+                        contenido
+                        que conecta con las audiencias. Mi enfoque combina técnica, creatividad y estrategia para llevar
+                        tu mensaje más allá de la pantalla.
+                    </p>
+                    <div class="skills">
+                        <h3 class="skills__title">Habilidades</h3>
+                        <div class="skills__list">
+                            <span class="skill__item">Edición de Video</span>
+                            <span class="skill__item">Color Grading</span>
+                            <span class="skill__item">Motion Graphics</span>
+                            <span class="skill__item">Storytelling</span>
+                            <span class="skill__item">Efectos Visuales</span>
+                            <span class="skill__item">Audio Post-Producción</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2 class="section__title">¿Listo para crear algo increíble juntos?</h2>
+            <p class="contact__description">
+                Transformemos tus ideas en contenido que impacte y conecte con tu audiencia
+            </p>
+            <div class="contact__actions">
+                <a href="https://wa.me/1234567890" class="btn btn--primary btn--large">
+                    <i class="fab fa-whatsapp"></i>
+                    Escríbeme por WhatsApp
+                </a>
+                <div class="social__links">
+                    <a href="#" class="social__link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social__link">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="social__link">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <i class="fas fa-video"></i>
+                    <span>Creator Studio</span>
+                </div>
+                <nav class="footer__nav">
+                    <a href="#home" class="footer__link">Inicio</a>
+                    <a href="#portfolio" class="footer__link">Portafolio</a>
+                    <a href="#contact" class="footer__link">Contacto</a>
+                </nav>
+                <p class="footer__copyright">
+                    © 2024 Creator Studio. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="modal" id="videoModal">
+        <div class="modal__content">
+            <span class="modal__close">&times;</span>
+            <div class="modal__video"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
